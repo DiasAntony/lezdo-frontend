@@ -1,0 +1,64 @@
+.link {
+  margin-top: 20px;
+  display: flex;
+}
+.link_back {
+  color: blue;
+  text-decoration: none;
+  margin-left: 45px;
+  font-weight: 500;
+  font-size: large;
+}
+.link_icon {
+  color: blue;
+}
+
+
+
+.container_ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+.containe h1 {
+  width: 370px;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-weight: 630;
+}
+
+.opt-1 input {
+  margin-bottom: 30px;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 10px 20px;
+}
+
+.col input:disabled {
+  background-color: #ccc;
+}
+
+.col label {
+  font-weight: 630;
+}
+
+label sup {
+  color: red;
+  font-size: 9px;
+}
+
+.btn_next {
+  display: flex;
+  justify-content: center;
+}
+
+.btn_next button {
+  width: 150px;
+  margin-top: -10px;
+}

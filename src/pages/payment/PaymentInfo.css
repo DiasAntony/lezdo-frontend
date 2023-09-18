@@ -1,0 +1,85 @@
+.container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container h3 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 630;
+}
+
+.ratio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.ratio input {
+  margin-right: 10px;
+}
+
+.ratio label {
+  font-weight: 630;
+}
+
+.col input {
+  /* margin-bottom: 20px; */
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 10px 20px;
+}
+
+ /* input[type="email"] {
+  background-color: white;
+} */
+
+.col label {
+  font-weight: 630;
+}
+
+label sup {
+  color: red;
+  font-size: 9px;
+}
+
+.btn_next {
+  display: flex;
+  justify-content: center;
+}
+
+.btn_next button {
+  width: 150px;
+  margin-top: 10px;
+}
+.container_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  /* margin-bottom: 20px; */
+}
+
+.container_2 h1 {
+  margin-top: 2px;
+  width: 370px;
+  font-size: 25px;
+  text-align: center;
+  /* margin-bottom: 10px; */
+  font-weight: 630;
+}
+
+.none{
+    display: none;
+
+}
+

@@ -1,0 +1,28 @@
+.footer {
+  margin-bottom: 0;
+  height: 10vh;
+  /* background-color: black; */
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  margin-left: 50px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.circle .icon {
+  position: absolute;
+  left: 15%;
+  top: 20%;
+  font-size: 35px;
+  color: white;
+}
+
+.circle:hover {
+  background-color: rgb(0, 0, 0);
+}

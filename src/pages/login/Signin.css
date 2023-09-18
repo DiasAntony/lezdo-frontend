@@ -1,0 +1,121 @@
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-form input {
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+.signin-form label {
+  font-weight: 500;
+  font-size: large;
+  margin-top: 20px;
+}
+
+.signin-form button {
+  border-radius: 2px;
+  width: 400px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.label-mark {
+  margin-top: -25px;
+}
+
+.label-mark span {
+  font-weight: 500;
+  color: blue;
+
+}
+.link-forgot{
+  text-decoration: none;
+}
+
+.label-mark input {
+  margin-left: 130px;
+}
+.label-mark label {
+  font-size: medium;
+}
+
+.pass_ {
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  right: 1rem;
+  top: 67px;
+}
+
+.resend-otp {
+  margin-top: -50px;
+  margin-left: -250px;
+}
+
+.bg_blue {
+  background-color: blue;
+  color: white;
+  border: 2px solid white;
+  height: 25px;
+  width: 25px;
+  margin-top: 2px;
+  /* margin-left: px; */
+  /* margin: 1px 5px; */
+  margin-right: 5px;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+.bg_blue .icc {
+  color: white;
+  /* color: white; */
+  position: absolute;
+  left: 8%;
+  top: 10%;
+}
+
+.b-g {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  height: 20px;
+  width: 20px;
+  margin-top: 5px;
+  /* margin-left: px; */
+  /* margin: 1px 5px; */
+  margin-right: 5px;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+.b-g .icc {
+  color: black;
+  /* color: white; */
+  position: absolute;
+  left: 5%;
+  top: 6%;
+}
+
+.cond_icc {
+  margin-top: 10px;
+}
+
+.cond_icc li {
+  /* margin-top: 10px; */
+  position: relative;
+}
+
+.erro-span{
+  color: red;
+  font-size: medium;
+  margin-left: 40px;
+}

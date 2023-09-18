@@ -1,0 +1,98 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex img {
+  margin-top: 40px;
+}
+
+.flex h1 {
+  width: 370px;
+  font-size: 33px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.flex p {
+  width: 370px;
+  text-align: center;
+  /* font-weight: bold; */
+  opacity: 0.9;
+}
+
+.lezdo {
+  color: blue;
+}
+
+.flex h2 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.email {
+  margin-top: 10px;
+  width: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.email input[type="email"] {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+.email input[type="email"]:focus {
+  border: 2px solid #555;
+}
+
+.referral {
+  margin-top: 1px;
+  width: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.referral input[type="text"] {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px dashed #ccc;
+}
+
+.referral input[type="text"]:focus {
+  outline: none;
+  border-bottom: 2px dashed #555;
+}
+
+button {
+  width: 370px;
+  height: 48px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  transition: ease-in background-color 0.5s;
+}
+
+button:hover {
+  background-color: rgb(0, 0, 0);
+}
