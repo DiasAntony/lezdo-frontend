@@ -48,7 +48,7 @@ const CreateOTP = () => {
       return toast.error("fill the field");
     }
 
-    if (otp === OTP) {
+    if (otp !== OTP) {
       return toast.error("OTP doesn't match");
     }
 
